@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        <i>Thank you for taking the time to help us improve the platform</i>
+      </p>
+      <form id="survey-form">
+        <div class="form-control">
+          <p><label for="name" id="name-label">Name</label></p>
+          <input type="text" id="name" placeholder="Enter your name" required />
+          <p><label for="email" id="email-label">Email</label></p>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your Email"
+            required
+          />
+          <p><label for="age" id="number-label">Age (optional)</label></p>
+          <input
+            type="number"
+            id="number"
+            min="10"
+            max="70"
+            placeholder="Age"
+            required
+          />
+
+          <p><label for="role"
+            >Which option best describes your current role?
+          </label></p>
+          <select name="role" id="dropdown">
+            <option value="" disabled selected>Select a current role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="full-time-learner">Full Time Learner</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+
+          <p id="description">Would you recommend freeCodeCamp to a friend?</p>
+          <label for="definitely"
+            ><input
+              type="radio"
+              id="definitely"
+              value="Definitely"
+              name="recommend"
+            />Definitely</label
+          >
+
+          <label for="maybe"
+            ><input
+              type="radio"
+              id="maybe"
+              value="Maybe"
+              name="recommend"
+            />Maybe</label
+          >
+
+          <label for="not-sure"
+            ><input
+              type="radio"
+              id="notsure"
+              value="Not sure"
+              name="recommend"
+            />Not sure</label
+          >
+
+          <p><label for="role"
+            >What is your favorite features of freeCodeCamp?
+          </label></p>
+          <select name="feature" id="dropdown">
+            <option value="" disabled selected>Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Commnunity</option>
+            <option value="open-source">Open Source</option>
+          </select>
+
+          <p><label for=""
+            >What would you like to see improved?
+            <small>(Check all that apply)</small></label
+          ></p>
+          <label for="improve-1"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="frontend"
+              id="improve-1"
+            />Front-end Projects</label
+          >
+          <label for="improve-2"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="backend"
+              id="improve-2"
+            />Back-end Projects</label
+          >
+          <label for="improve-3"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="data-visualization"
+              id="improve-3"
+            />Data Visualization</label
+          >
+          <label for="improve-4"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="challenges"
+              id="improve-4"
+            />Challenges</label
+          >
+          <label for="improve-5"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="open-source-community"
+              id="improve-5"
+            />Open Source Community</label
+          >
+          <label for="improve-6"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="gitter-help-rooms"
+              id="improve-6"
+            />Gitter help rooms</label
+          >
+          <label for="improve-7"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="videos"
+              id="improve-7"
+            />Videos</label
+          >
+          <label for="improve-8"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="city-meetups"
+              id="improve-8"
+            />City Meetups</label
+          >
+          <label for="improve-9"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="wiki"
+              id="improve-9"
+            />Wiki</label
+          >
+          <label for="improve-10"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="forum"
+              id="improve-10"
+            />Forum</label
+          >
+          <label for="improve-11"
+            ><input
+              type="checkbox"
+              name="improve"
+              value="additional courses"
+              id="improve-11"
+            />Additional Courses</label
+          >
+
+          <p><label for="comments">Any comments or suggestions?</label></p>
+          <textarea
+            name="comments"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter your comment here..."
+          ></textarea>
+          <button id="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+  <footer>Copyright &copy; Caveman 2021 - freeCodeCamp Responsive Web Design Project</footer>
+</html>

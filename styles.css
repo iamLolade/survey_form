@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  text-align: center;
+  margin: 0;
+  background: url("http://softwaremind.com/content/uploads/2018/11/a0d2ade0259d844c800d0906981ecb33.jpg")
+    no-repeat fixed;
+  background-size: cover;
+  opacity: 0.85;
+}
+
+h1 {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+h1 + p {
+  margin-top: 0;
+  color: #fff;
+}
+
+p {
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+form {
+  background: #fff;
+  max-width: 1050px;
+  margin: 40px auto;
+  padding: 50px 40px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  height: auto;
+}
+
+.form-control {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.form-control input,
+.form-control select {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #777;
+  padding: 8px;
+  font-family: inherit;
+  margin-bottom: 25px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 4px;
+  font-family: inherit;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  font-family: inherit;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 10px auto;
+  color: #fff;
+  background: #05c46b;
+  border: 1px solid #05c46b;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+footer {
+  font-family: Poppins;
+  text-align: center;
+  margin: 10px auto;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
